@@ -59,7 +59,7 @@ div#redes>a>img{
 /* menu de redes sociais */
 
 div#redes>nav{
-    max-width: 200px;
+    max-width: 120px;
     min-width: 90px;
     flex-grow: 1;
 }
