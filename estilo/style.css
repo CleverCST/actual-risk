@@ -24,6 +24,9 @@ main{
     border-bottom-right-radius: 10px;
 
 }
+
+/* cabeçalho */
+
 div.header{
     background-color: #A6333D;
 }
@@ -42,19 +45,23 @@ div#redes>a{
     display: inline;
 }
 div#redes>a>img{
-    display: block;
     width: 90px;
     height: 60px;
     padding-left: 15px;
+    flex-grow: 1;
 }
 .h1head{
-    display: block;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 0.8em;
+    flex-grow: 2;
 }
+
+/* menu de redes sociais */
+
 div#redes>nav{
-    max-width: 400px;
+    max-width: 200px;
     min-width: 90px;
+    flex-grow: 1;
 }
 .contato{
     width: 17px;
@@ -66,6 +73,9 @@ div#redes>nav{
     box-shadow: 3px 5px 7px rgba(0, 0, 0, 0.295);
     transition: transform 0.1s, border 0.1s;
 }
+
+/* banner */
+
 .banner{
     display: flex;
     background-image: url('../imagens/banner.jpg');
@@ -102,6 +112,8 @@ div#redes>nav{
     font-weight: 300;
 
 }
+
+/* quem somos */
 .quem{
     font-family: Arial, Helvetica, sans-serif;
 }
