@@ -25,6 +25,9 @@ main{
 }
 p{
     font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    text-indent: 50px;
+    padding-bottom: 20px;
 
 }
 
@@ -50,13 +53,13 @@ div#redes>a{
 div#redes>a>img{
     width: 90px;
     height: 60px;
-    padding-left: 15px;
+
     flex-grow: 1;
 }
 .h1head{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 0.8em;
-    flex-grow: 2;
+    flex-grow: 1;
 }
 
 /* menu de redes sociais */
@@ -115,22 +118,6 @@ div#redes>nav{
     font-weight: 300;
 
 }
-
-/* quem somos */
-/* .video{
-    background-color: #A4A5A6;
-    border-radius: 10px;
-    margin: 0px -20px 10px -20px;
-    padding-bottom: 57%;
-    position: relative;
-}
-div.video > iframe{
-    position: absolute;
-    top: 5%;
-    left: 5%;
-    width: 90%;
-    height: 90%;
-} */
 .quem{
     font-family: Arial, Helvetica, sans-serif;
 
@@ -148,12 +135,12 @@ div.video > iframe{
     align-items: center;
     text-align: center;
     max-width: 1020px;
-    height: 100px;
+    height: 95px;
     background-color: #A6333D;
     color: white;
     font-family:'Montserrat', sans-serif;
     font-size: 2.3em;
-    padding-left: 20px;
+    justify-content: center;
     margin: 0px -20px 40px -20px
     
 }
@@ -190,7 +177,7 @@ div.video > iframe{
 aside>details>summary>h3{
 
     color: #A6333D;
-    font-size: 1em;
+    font-size: 1.3em;
     padding: 10px;
     margin: 30px -20px 30px -20px;
     border-radius: 10px 10px 10px 10px;
@@ -198,6 +185,7 @@ aside>details>summary>h3{
 aside>details>summary{
     text-align: center;
     list-style-type: none;
+    
 }
 aside>details>summary:hover{
     color: #A6333D;
@@ -206,7 +194,7 @@ aside>details>summary:hover{
 }
 div.video{
     background-color: #757575;
-    border-radius: 0px 0px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
     margin: 0px -20px 30px -20px;
     padding-bottom: 57%;
     position: relative;
